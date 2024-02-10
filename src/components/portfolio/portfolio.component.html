@@ -1,31 +1,71 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#experience">Experience</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="container mt-5">
+    <div class="row" id="about">
+      <div class="col-md-6 profile-section">
+        <h1 class="section-title">Ramakrishna Chennuri</h1>
+        <h3>Web Developer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida lectus eget magna sodales, vel ullamcorper velit convallis.</p>
+        <p>Email : <a href="mailto:chennuri.ramakrishna@gmail.com">chennuri.ramakrishna&#64;gmail.com</a></p>
+        <p>Phone: <a href="tel:7702214691">7702214691</a></p>
+        <a href="#" class="button">Download Resume</a>
+      </div>
+      <div class="col-md-6 profile-section">
+        <img src="https://via.placeholder.com/300" alt="Profile Picture" class="profile-picture">
+      </div>
+    </div>
+    <div class="row" id="education">
+      <div class="col education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+          <li>Bachelor's Degree in Computer Science - University Name (Year)</li>
+          <li>Online Courses - Coursera, Udemy, etc.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row" id="experience">
+      <div class="col experience">
+        <h2 class="section-title">Experience</h2>
+        <h4>Web Developer - Company Name (Year - Present)</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida lectus eget magna sodales, vel ullamcorper velit convallis.</p>
+        <h4>Intern - Company Name (Year - Year)</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida lectus eget magna sodales, vel ullamcorper velit convallis.</p>
+      </div>
+    </div>
+    <div class="row" id="skills">
+      <div class="col skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Angular</li>
+          <li>React</li>
+          <!-- Add more skills as needed -->
+        </ul>
+      </div>
+    </div>
+  </div>
